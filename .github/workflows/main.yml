@@ -25,7 +25,7 @@ jobs:
       - name: install modules
         run: npm ci
       - name: build production project
-        run: npm run build:prod
+        run: npm run build:dev
         if: always()
       - name: linting typescript
         run: npm run lint:ts
