@@ -39,11 +39,11 @@ class ErrorBoundary
             );
         }
 
-        return(
+        return (
         <div>
             {children}
         </div>
-        ) ;
+        );
     }
 }
 
