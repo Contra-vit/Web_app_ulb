@@ -40,9 +40,9 @@ class ErrorBoundary
         }
 
         return (
-        <div>
-            {children}
-        </div>
+            <div>
+               {children}
+            </div>
         );
     }
 }
